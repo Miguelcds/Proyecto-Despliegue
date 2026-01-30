@@ -25,7 +25,7 @@ Asegúrate de tener instalado:
 
 1. **Navega al directorio del proyecto:**
    ```bash
-   cd eventos-centro
+   cd Proyecto-Despliegue
    ```
 
 2. **Instala las dependencias:**
