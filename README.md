@@ -14,7 +14,7 @@ Aplicación web desarrollada con **React** y **Vite** para consultar y organizar
 ✅ **Animaciones fluidas** - Transiciones y efectos visuales modernos  
 ✅ **Gestión de estados** - Loading y mensajes de error
 
-## 📋 Requisitos Previos
+##  Requisitos Previos
 
 Asegúrate de tener instalado:
 
@@ -52,7 +52,7 @@ npm run build
 npm run preview
 ```
 
-## 📁 Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```
 eventos-centro/
@@ -182,7 +182,7 @@ Este proyecto fue desarrollado siguiendo las mejores prácticas de React:
 
 ##  Notas Importantes
 
-- Los eventos se cargan desde un archivo JSON local (sin backend ya que asi se solicitó el proyecto en esta ocasion)
+- Los eventos se cargan desde un archivo JSON local (sin backend, solo FRONT )
 - Los favoritos se almacenan en el estado de React (se pierden al recargar, en futuras versiones incluire la opcion de un localStorage)
 - La simulación de carga dura 800ms para demostrar el estado de loading
 - Todos los eventos incluyen validación de datos
