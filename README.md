@@ -147,7 +147,7 @@ eventos-centro/
 
 ##  Capturas de Pantalla
 
-*(Las capturas de pantalla se encuentran en la carpeta `/capturas`)*
+*(Las capturas de pantalla se encuentran en la carpeta `/capturas`) ocultas en el repo, disponible solo en la web de clase*
 
 1. **Pantalla Principal** - Vista general con todos los eventos
 2. **Búsqueda y Filtros** - Sistema de filtrado en acción
