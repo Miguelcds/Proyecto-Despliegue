@@ -1,0 +1,120 @@
+.evento-card {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.85));
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.evento-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--card-accent), var(--card-accent-light));
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.evento-card:hover::before {
+  opacity: 1;
+}
+
+.evento-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+
+.categoria-badge {
+  display: inline-block;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.categoria-badge.charla {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  --card-accent: #667eea;
+  --card-accent-light: #764ba2;
+}
+
+.categoria-badge.torneo {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  color: white;
+  --card-accent: #f093fb;
+  --card-accent-light: #f5576c;
+}
+
+.categoria-badge.taller {
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  color: white;
+  --card-accent: #4facfe;
+  --card-accent-light: #00f2fe;
+}
+
+.categoria-badge.excursion {
+  background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+  color: white;
+  --card-accent: #43e97b;
+  --card-accent-light: #38f9d7;
+}
+
+.evento-titulo {
+  color: #1a1a1a;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  line-height: 1.4;
+}
+
+.evento-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.info-item .icon {
+  font-size: 1.1rem;
+}
+
+.btn-detalle {
+  width: 100%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+.btn-detalle:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+}
+
+.btn-detalle:active {
+  transform: translateY(0);
+}
