@@ -184,7 +184,6 @@ Este proyecto fue desarrollado siguiendo las mejores prácticas de React:
 
 - Los eventos se cargan desde un archivo JSON local (sin backend, solo FRONT )
 - Los favoritos se almacenan en el estado de React (se pierden al recargar, en futuras versiones incluire la opcion de un localStorage)
-- La simulación de carga dura 800ms para demostrar el estado de loading
 - Todos los eventos incluyen validación de datos
 
 ##  Contribuir
