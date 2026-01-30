@@ -5,7 +5,7 @@ const Favoritos = ({ favoritos, onQuitarFavorito }) => {
   if (favoritos.length === 0) {
     return (
       <div className="favoritos-seccion">
-        <h2 className="favoritos-titulo">⭐ Tus Favoritos</h2>
+        <h2 className="favoritos-titulo"> Tus Favoritos !! </h2>
         <div className="favoritos-vacio">
           <span className="icono-vacio">📌</span>
           <p>Aún no has añadido eventos a favoritos</p>

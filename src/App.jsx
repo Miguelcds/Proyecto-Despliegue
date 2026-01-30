@@ -26,9 +26,6 @@ function App() {
     const cargarEventos = async () => {
       try {
         setLoading(true);
-        // Simular delay de carga
-        await new Promise(resolve => setTimeout(resolve, 800));
-        
         if (!eventosData || eventosData.length === 0) {
           throw new Error('No hay eventos disponibles');
         }
@@ -136,8 +133,7 @@ function App() {
               placeholder="Buscar por título o lugar..."
               value={busqueda}
               onChange={(e) => setBusqueda(e.target.value)}
-              className="input-busqueda"
-            />
+              className="input-busqueda"/>
             {busqueda && (
               <button 
                 className="btn-limpiar"
