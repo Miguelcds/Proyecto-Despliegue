@@ -78,5 +78,13 @@
     "fecha": "2026-03-05",
     "lugar": "Salida desde la estación (08:30)",
     "descripcion": "Visita con actividades prácticas relacionadas con electrónica, programación y ciencia. Lleva autorización firmada."
+  },
+  {
+    "id": 11,
+    "titulo": "Charla: Por la siesta sienta tan bien y es importante",
+    "categoria": "Charla",
+    "fecha": "2026-01-31",
+    "lugar": "La cama mas cercana",
+    "descripcion": "Dormiremos un rato."
   }
 ]
