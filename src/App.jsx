@@ -5,7 +5,7 @@ import './App.css'
 import DetalleEvento from './components/DetalleEvento';
 import Favoritos from './components/Favoritos';
 import eventosData from './data/Eventos.json';
-import EventoCard from './components/Eventocard';
+import EventoCard from './components/EventoCard';
 
 
 
